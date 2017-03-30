@@ -1,0 +1,270 @@
+
+/*@font-face {
+	font-family: Muli;
+        src: url('../../Fonts/Muli/Muli-Regular.eot');
+	src: url('../../Fonts/Muli/Muli-Regular.ttf'); 
+}*/
+
+body  {
+    margin:0px;
+    /*background:url('../../images/common/whitefill.png');*/
+    font-size : 83%;
+    font-family : Muli,Tahoma, Arial, Helvetica, sans-serif;
+}
+
+h1  {
+    font-size : 250%;
+    font-family : Muli,Tahoma, Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+h2  {
+    font-size : 160%;
+    font-family : Muli,Tahoma, Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+h3  {
+    font-size : 140%;
+    font-family :Muli, Tahoma, Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+h4  {
+    font-size : 110%;
+    font-family :Muli, Tahoma, Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+h5  {
+    font-size : 100%;
+    font-family :Muli, Tahoma, Arial, Helvetica, sans-serif;
+    font-weight : bold;
+}
+
+table  {
+    font-size : 100%;
+    font-family :Muli, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type : disc;
+}
+
+p{
+    font-family: Muli,Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.login_header{
+    width:100%;
+    height:30px;
+    background:url('../images/sltblue.png');
+}
+
+.login_content{
+    position:relative;
+    width:800px;
+    height:400px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    border-top:1px solid lightgrey;
+}
+
+.login_left{
+    position:absolute;
+    width: 27px; /*36px;*/
+    height: 400px; /*468px;*/
+    background:url('../images/login/login_left.png') no-repeat;
+}
+
+.login_mid{
+    position:absolute;
+    width:750px;
+    height:400px; /*468px; */
+   	margin-left: 27px; /*36px;*/
+    background:url('../images/login/login_mid.png');
+}
+
+.login_right{
+    position:absolute;
+    width:  30px; /* 33px;*/
+    height:  400px; /* 533px; */ 
+    margin-left:777px;
+    background:url('../images/login/login_right.png') no-repeat;
+}
+
+.login_logo{
+    width:100px;
+    height:100px;
+    position:absolute;
+    margin-left:690px;
+    
+}
+
+.login_bb_title{
+    width:200px;
+    height:54px;
+    position:absolute;
+    margin-left:150px;
+    border-left:1px solid lightgrey;
+}
+
+.login_bb_check{
+    width:150px;
+    height:100px;
+    position:absolute;
+}
+
+
+.login_details{
+    width:320px;
+    height:100px;
+    position:absolute;
+    margin-left:240px;
+    margin-top:180px;
+	text-align: center;
+}
+
+.login_details table{
+    width: 320px;
+    height: 70px;
+    color:darkblue;
+    font-family: Muli, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.inputs{
+    width:150px;    
+}
+
+.email{
+    width:180px;
+}
+
+.login_submit{
+/*    float:right;
+    margin-right:10px;
+    position:absolute;*/
+    margin-left:185px;
+    margin-top:5px;
+    cursor:pointer;
+    border:none;
+    background:url('../images/login/login.png') no-repeat;
+    width:85px;
+    height:28px;
+}
+
+.login_submit:active{
+    background:url('../application/login.html') no-repeat;    
+}
+
+.login_reset{
+/*    float:right;
+    margin-right:10px;*/
+    margin-left:185px;
+    margin-top:5px;
+    cursor:pointer;
+    border:none;
+    background:url('../application/login.html') no-repeat;
+    width:90px;
+    height:30px;
+}
+
+.login_reset:active{
+    background:url('../application/login.html') no-repeat;    
+}
+
+.login_reset:disabled{
+    background:url('../application/login.html') no-repeat;    
+}
+
+
+.bottom_menu{
+    position:absolute;
+    width: 400px;
+    height:30px;
+    color:white;
+/*    margin-top:210px;
+    margin-left:530px;*/
+    margin-top: 365px;/*395px;*/
+    margin-left:20px;
+}
+
+.bottom_menu a{
+    color:darkblue;
+    text-decoration: none;
+}
+
+.bottom_menu a:hover{
+    color:white;
+}
+
+
+
+.login_error{
+    position:absolute;
+    width:800px;
+    height:25px;
+    background:#d21213;
+    margin-top:102px;
+}
+
+.login_error a{
+    position:absolute;
+    color:white;
+    margin-left:20px;
+    margin-top:5px;
+}
+
+.seasonal_login_img{
+    height: 73px;
+    margin-left: -31px;
+    margin-top: 83px;
+    position: absolute;
+    width: 60px;
+    z-index: 990;
+}
+
+.login_message{
+    position:absolute;
+    width:800px;
+    height:25px;
+    background:url('../images/sltblue.png');
+    margin-top:102px;
+    border-top:1px solid lightgrey;
+    border-bottom:1px solid lightgrey;
+}
+
+.login_message marquee{
+    position:absolute;
+    color:white;
+    margin-left:20px;
+    right:20px;
+    margin-top:5px;
+}
+
+
+.login_inv_message{
+    position:absolute;
+    width:800px;
+    height:25px;
+    background:url('../images/sltred.png');
+    margin-top:102px;
+    border-top:1px solid lightgrey;
+    border-bottom:1px solid lightgrey;
+}
+
+.login_inv_message_text{
+    position:absolute;
+    color:white;
+    margin-top:5px;
+    margin-left:10px;
+}
+
+
+#reg_link{
+
+    /*font-style:  italic;*/
+    color:orangered;
+    font-size:14px;
+}

@@ -1,0 +1,97 @@
+.wordwrap { 
+   white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+}
+
+
+#alert_box_out{    
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    width:100%;
+    height:100%;
+    z-index:998;
+    display:none;
+}
+
+/*#alert_box_in{
+    position: absolute;
+    left:50%;
+    z-index: 999;
+    display:none;
+    min-width:250px;
+    min-height:120px; 
+    max-width:300px;
+    max-height:300px;
+}*/
+
+#alert_box_in{
+    position: absolute;
+    left:50%;
+    z-index: 999;
+    display:none;
+    width:300px;
+    height:150px; 
+}
+
+#alert_back{
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index: -100;
+}
+
+#msginfobar{
+    height:23px;
+    width:100%;
+}
+
+#msg_left{
+    position:absolute; 
+    width:40px;
+    height:23px;
+    margin:5px;
+    background:url('../images/addons/alertbox/msg_left.png') no-repeat;
+}
+
+#msg_x{
+    position:absolute;
+    right:-5px;
+    top:-5px;
+}
+
+#act_msg{
+    margin-left:5px;
+    margin-right:5px;
+    padding:5px;
+    text-align: center;
+    color:darkslategrey;
+    overflow-x: auto;
+}
+
+#msg_close{
+    position:absolute;
+    bottom:5px;
+    right:5px;
+    width:60px;
+    height:20px;    
+}
+
+#msg_close a{
+    position:absolute;
+    margin:0px;
+    width:60px;
+    height:20px;
+    background:url('../images/addons/alertbox/close.png') no-repeat;
+}
+
+#msg_close a:active{
+    background:url('../images/addons/alertbox/close_press.png') no-repeat;
+}
+
+

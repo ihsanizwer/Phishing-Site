@@ -1,0 +1,68 @@
+.helptip{
+    cursor: help;
+}
+
+
+
+.ui-datepicker {
+  	font-size:12px;
+    font-weight: normal;
+    font-family: none;
+	width: 215px;
+}
+
+ .ui-datepicker table {
+	
+	font-size:12px;
+    font-weight: normal;
+    font-family: none;
+    
+    border-spacing: 3px;
+    border-collapse: separate;
+}
+
+.ui-datepicker td {
+	font-size:12px;
+    font-weight: normal;
+    font-family: none;
+    font-style: normal;
+    background-color: #f1f8fd;
+    border: 1px solid; 
+    border-color: #e3eff8;
+}
+
+.ui-datepicker-header {
+	background: #e3eff8;
+	color: #e0e0e0;
+	font-weight: bold;
+	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, 2);
+	-moz-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+	box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+	text-shadow: 1px -1px 0px #000;
+	filter: dropshadow(color=#000, offx=1, offy=-1);
+	line-height: 30px;
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	border-color: #111;
+}
+
+
+
+.rangeDatePicker {
+	font-size:12px;
+    font-family: none;
+    width: 120px;
+}
+
+.rangeDatePicker input {
+	
+	border-top : 1px solid !important;
+	border-bottom : 1px  solid !important;
+	border-left: 1px  solid !important;
+	border-right: 1px solid !important;
+	border-style: solid;
+}
+
+
+
+
