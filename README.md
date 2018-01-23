@@ -4,7 +4,7 @@ This is a phishing site created to show users and create awareness about how eas
 DISCLAIMER: PHISHING IS ILLEGAL. I DON'T TAKE RESPONSIBILITY OF ANY ACTIVITY YOU CHOOSE TO DO WITH THIS.
 
 Please visit my blog post on this : 
-https://alphagreytux.wordpress.com/2017/03/27/sphere-phishing-how-to-hack-and-use-neighbors-wifi-from-your-home/
+http://hackerintent.co.nf/2017/03/27/sphere-phishing-hack-use-neighbors-wifi-home/
 
 How to set it up locally:
 
